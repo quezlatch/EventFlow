@@ -1,5 +1,5 @@
 {
-  "name": "EventFlow Framework",
+  "name": "EventFlow Framework with external development network",
   "service": "event-flow-framework",
   "dockerComposeFile": ["./docker-compose.yml"],
   "settings": {},

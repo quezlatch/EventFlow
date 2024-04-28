@@ -1,0 +1,23 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
+{
+	"name": "EventFlow Framework with Azurite Azure Storage",
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/azure/azure-dev/azd:0": {}
+	},
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "event-flow-framework",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp"
+			  ],
+			"settings": {}		  
+		}
+	},
+	"remoteUser": "vscode",
+	"shutdownAction": "none"
+  }
+  
