@@ -2,7 +2,7 @@ version: '3'
 
 services:
   event-flow-framework:
-    image: "mcr.microsoft.com/devcontainers/dotnet:1-8.0-bookworm"
+    image: "mcr.microsoft.com/devcontainers/dotnet:8.0"
     container_name: event-flow-framework
     ports:
       - "5000:5000"
